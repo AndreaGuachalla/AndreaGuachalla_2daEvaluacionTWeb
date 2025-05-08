@@ -1,5 +1,23 @@
-# Vue 3 + Vite
+# Star Wars Characters Portal 🌌
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este proyecto es una aplicación web construida con **Vue 3 + Vite** que muestra una galería de personajes del universo de Star Wars, utilizando datos obtenidos dinámicamente desde la **API pública SWAPI** (https://swapi.dev/).
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🚀 Características
+
+- Consumo de la API SWAPI: [https://swapi.dev/api/people/](https://swapi.dev/api/people/)
+- Visualización de personajes en tarjetas: nombre, altura, género y año de nacimiento.
+- Interfaz responsive usando CSS puro (sin frameworks).
+- Navegación entre vistas usando Vue Router.
+- Componentes reutilizables: Navbar, Footer y PersonCard.
+- Manejo básico de carga (`loading`) y errores.
+
+## 🛠️ Tecnologías utilizadas
+
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [Vue Router](https://router.vuejs.org/)
+- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- CSS puro
+
+## 📂 Estructura del proyecto
+
